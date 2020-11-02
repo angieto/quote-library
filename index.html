@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quote Machine</title>
+        <link
+            rel="icon"
+            type="image/png"
+            href="https://www.google.com/s2/favicons?domain=codepen.com"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="quote-container" id="quote-container">
+            <!--Quote-->
+            <div class="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote"></span>
+            </div>
+            <!--Author-->
+            <div class="quote-author">
+                <span id="author"></span>
+            </div>
+            <!--Buttons-->
+            <div class="button-container">
+                <button
+                    class="twitter-btn"
+                    id="twitter-btn"
+                    title="Tweet this!"
+                >
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New Quote</button>
+            </div>
+        </div>
+
+        <!-- Spinner -->
+        <div class="spinner" id="spinner">
+
+        <!--Script-->
+        <script src="script.js"></script>
+    </body>
+</html>
